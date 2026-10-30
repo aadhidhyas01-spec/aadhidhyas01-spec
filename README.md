@@ -1,6 +1,9 @@
 <!-- Profile README | Aadhidhya | GitHub-safe HTML layout -->
 <div align="center">
 
+<a href="https://aadhidhyas01-spec.github.io/aadhidhyas01-spec/"><img src="https://img.shields.io/badge/OPEN-INTERACTIVE%20PORTFOLIO-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open interactive portfolio"/></a>
+
+
 <img src="./assets/profile-banner.svg" width="100%" alt="Aadhidhya — AI, Machine Learning and Robotics portfolio banner"/>
 
 <br/>
