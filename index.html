@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070b12">
+<meta name="description" content="Aadhidhya — AI and Machine Learning undergraduate exploring computer vision, robotics, automation and software development.">
+<meta property="og:title" content="Aadhidhya | AI · Vision · Robotics"><meta property="og:description" content="Ideas into intelligent systems. Explore my projects and experiments.">
+<title>Aadhidhya — AI / ML · Vision · Robotics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css"><script defer src="./script.js"></script>
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress"></div><canvas id="networkCanvas" class="network-canvas" aria-hidden="true"></canvas>
+<div class="ambient ambient-a"></div><div class="ambient ambient-b"></div><div class="noise-layer"></div>
+
+<header class="site-header">
+<a class="brand" href="#home" aria-label="Aadhidhya home"><span class="brand-mark">A<span>.</span></span><span class="brand-name">AADHIDHYA<small>AI / ML DEVELOPER</small></span></a>
+<nav class="main-nav" id="mainNav" aria-label="Main navigation">
+<a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#stack">Stack</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#contact">Contact</a>
+</nav>
+<div class="header-actions"><span class="status-pill"><i></i> BUILDING & LEARNING</span><button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle colour theme">☼</button><button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button></div>
+</header>
+
+<main>
+<section class="hero section-wrap" id="home">
+<div class="hero-copy reveal">
+<div class="eyebrow"><span class="eyebrow-line"></span> STUDENT BUILDER · INDIA · 2026</div>
+<h1>I BUILD<br><span class="gradient-word">INTELLIGENT</span><br>EXPERIENCES<span class="hero-dot">.</span></h1>
+<div class="hero-subline"><span class="type-prefix">FOCUS /</span> <span id="typedRole">ARTIFICIAL INTELLIGENCE</span><span class="type-caret">_</span></div>
+<p class="hero-description">Turning ambitious ideas into practical systems through <strong>AI, code and robotics.</strong> I explore how intelligent software can move beyond the screen and interact with the real world.</p>
+<div class="hero-ctas"><a class="button button-primary" href="#projects">EXPLORE MY WORK <span>↗</span></a><a class="button button-ghost" href="https://github.com/aadhidhyas01-spec" target="_blank" rel="noreferrer">GITHUB PROFILE <span>↗</span></a></div>
+<div class="hero-footnote"><span><b class="tiny-dot"></b> OPEN TO LEARNING & COLLABORATION</span><span>SCROLL TO EXPLORE ↓</span></div>
+</div>
+
+<div class="hero-visual reveal reveal-delay" aria-label="Illustration of an AI robotics developer workspace">
+<div class="visual-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+<div class="floating-label label-top"><span class="live-square"></span> CIVICLENS / SYSTEM CONCEPT</div>
+<div class="float-panel panel-left">
+<div class="panel-kicker">01 / VISION ENGINE</div>
+<div class="panel-visual vision-target"><span class="target-corner tl"></span><span class="target-corner tr"></span><span class="target-corner bl"></span><span class="target-corner br"></span><div class="target-object"><span></span></div><small>WASTE OBJECT · DETECTED</small></div>
+<div class="panel-reading"><span>MODEL</span><b>YOLO / CV</b></div><div class="panel-reading"><span>PIPELINE</span><b class="green-text">PROTOTYPE</b></div>
+</div>
+<div class="laptop-scene">
+<div class="laptop-screen"><div class="screen-topbar"><div class="traffic-lights"><i></i><i></i><i></i></div><span>civiclens.dashboard / workspace</span><b>● DEMO</b></div>
+<div class="screen-layout"><aside class="screen-sidebar"><div class="sidebar-logo">C<span>•</span></div><i class="side-icon active">⌂</i><i class="side-icon">⌘</i><i class="side-icon">◈</i><i class="side-icon">▤</i></aside>
+<div class="screen-main"><div class="screen-heading"><div><small>MISSION CONTROL / 001</small><h3>Intelligent systems<span>.</span></h3></div><span class="screen-chip">PROTOTYPE</span></div>
+<div class="screen-map"><div class="map-road road-h"></div><div class="map-road road-v"></div><div class="map-road road-d"></div><div class="map-node node-a"></div><div class="map-node node-b"></div><div class="map-node node-c"></div><div class="mini-truck">▰</div><span class="map-tag">ZONE 04 / SIMULATED</span></div>
+<div class="screen-metrics"><div><small>VISION</small><b>YOLOv8</b><em>OBJECT DETECTION</em></div><div><small>CONTROL</small><b>ESP32</b><em>WIRELESS LINK</em></div><div><small>SIMULATION</small><b>ROS 2</b><em>ROBOTICS</em></div></div>
+<div class="screen-terminal"><span>›</span> Initialising perception pipeline... <b>READY</b></div>
+</div></div></div>
+<div class="laptop-hinge"></div><div class="laptop-base"><div class="keyboard-lines"></div><div class="trackpad"></div></div><div class="laptop-shadow"></div>
+</div>
+<div class="float-panel panel-right"><div class="panel-kicker">02 / ROBOTICS LAB</div><div class="robot-glyph"><div class="robot-ring"></div><div class="robot-core">A<span>I</span></div><i class="robot-orbit-dot dot-one"></i><i class="robot-orbit-dot dot-two"></i><i class="robot-orbit-dot dot-three"></i></div><div class="panel-reading"><span>PLATFORM</span><b>ROS 2</b></div><div class="panel-reading"><span>HARDWARE</span><b>ESP32</b></div></div>
+<div class="floating-label label-bottom">IDEAS → PROTOTYPES → IMPROVEMENT</div><div class="visual-cross cross-one">＋</div><div class="visual-cross cross-two">✳</div>
+</div>
+</section>
+
+<div class="ticker" aria-label="Areas of interest"><div class="ticker-track">
+<span>ARTIFICIAL INTELLIGENCE</span><b>✳</b><span>COMPUTER VISION</span><b>✳</b><span>ROBOTICS</span><b>✳</b><span>EMBEDDED SYSTEMS</span><b>✳</b><span>SOFTWARE ENGINEERING</span><b>✳</b>
+<span>ARTIFICIAL INTELLIGENCE</span><b>✳</b><span>COMPUTER VISION</span><b>✳</b><span>ROBOTICS</span><b>✳</b><span>EMBEDDED SYSTEMS</span><b>✳</b><span>SOFTWARE ENGINEERING</span><b>✳</b>
+</div></div>
+
+<section class="intro-section section-wrap" id="about">
+<div class="section-index reveal">01 <span>/ ABOUT</span></div>
+<div class="intro-grid"><div class="intro-heading reveal"><p class="overline">MORE THAN JUST CODE</p><h2>Curiosity is the<br><span class="outline-text">starting point.</span></h2></div>
+<div class="intro-body reveal"><p class="big-copy">I’m an AI & Machine Learning undergraduate who loves exploring the space where <em>intelligence meets engineering.</em></p><p class="muted-copy">From experimenting with computer-vision models to wiring embedded controllers and exploring robotic simulation, I enjoy understanding how every part of a system works together. I’m still learning, building and refining—one project at a time.</p><div class="signature-line"><span class="signature-mark">A.</span><span>LEARN CONTINUOUSLY. BUILD THOUGHTFULLY.</span></div></div></div>
+<div class="principle-grid">
+<article class="principle-card reveal"><span class="principle-number">01</span><div class="principle-icon">⌘</div><h3>THINK IN SYSTEMS</h3><p>Connect software, hardware and data into solutions that work together.</p></article>
+<article class="principle-card reveal"><span class="principle-number">02</span><div class="principle-icon">◈</div><h3>BUILD TO LEARN</h3><p>Turn concepts into experiments, prototypes and practical experience.</p></article>
+<article class="principle-card reveal"><span class="principle-number">03</span><div class="principle-icon">↗</div><h3>IMPROVE EVERY ITERATION</h3><p>Test assumptions, document progress and make the next version better.</p></article>
+</div></section>
+
+<section class="stack-section section-wrap" id="stack">
+<div class="section-index reveal">02 <span>/ TECHNOLOGY</span></div>
+<div class="section-heading-row reveal"><div><p class="overline">MY TOOLKIT</p><h2>THE <span class="gradient-word">STACK</span></h2></div><p class="section-aside">Tools I use, technologies I explore<br>and skills I continue to develop.</p></div>
+<div class="stack-grid">
+<article class="stack-card reveal"><div class="stack-card-top"><span>01 / LANGUAGES</span><span class="stack-card-icon">{ }</span></div><h3>Programming</h3><p>Building logic, problem-solving and application foundations.</p><div class="tech-chips"><span>PYTHON</span><span>C</span><span>C++</span><span>JAVA</span></div></article>
+<article class="stack-card reveal"><div class="stack-card-top"><span>02 / INTELLIGENCE</span><span class="stack-card-icon">◉</span></div><h3>AI & Vision</h3><p>Exploring image understanding and detection workflows.</p><div class="tech-chips"><span>YOLOv8</span><span>OpenCV</span><span>ML</span></div></article>
+<article class="stack-card reveal"><div class="stack-card-top"><span>03 / PHYSICAL COMPUTING</span><span class="stack-card-icon">⌁</span></div><h3>Robotics & Embedded</h3><p>Connecting control software with physical hardware.</p><div class="tech-chips"><span>ROS 2</span><span>GAZEBO</span><span>ESP32</span><span>ARDUINO</span></div></article>
+<article class="stack-card reveal"><div class="stack-card-top"><span>04 / WORKFLOW</span><span class="stack-card-icon">⌘</span></div><h3>Developer Tools</h3><p>Version control, databases and Linux-based development.</p><div class="tech-chips"><span>GIT</span><span>GITHUB</span><span>LINUX</span><span>MYSQL</span></div></article>
+<article class="stack-card antigravity-card reveal"><div class="antigravity-orbit"></div><div class="stack-card-top"><span>MY AI-POWERED IDE</span><span class="external-mark">↗</span></div><div class="antigravity-content"><img src="https://antigravity.google/assets/image/brand/antigravity-icon__full-color.png" alt="Google Antigravity IDE logo" loading="lazy"><div><h3>Google Antigravity</h3><p>AI-powered development environment</p><a href="https://antigravity.google/" target="_blank" rel="noreferrer">EXPLORE ANTIGRAVITY ↗</a></div></div></article>
+</div></section>
+
+<section class="projects-section section-wrap" id="projects">
+<div class="section-index reveal">03 <span>/ SELECTED WORK</span></div>
+<div class="section-heading-row reveal"><div><p class="overline">FROM CONCEPT TO CODE</p><h2>PROJECTS THAT<br><span class="gradient-word">SPEAK.</span></h2></div><p class="section-aside">A selection of experiments and builds.<br>Some are ongoing prototypes.</p></div>
+<div class="project-filters reveal" role="group" aria-label="Filter projects"><button class="filter-button active" data-filter="all">ALL WORK <span>03</span></button><button class="filter-button" data-filter="ai">AI / ROBOTICS</button><button class="filter-button" data-filter="web">WEB</button><button class="filter-button" data-filter="python">PYTHON</button></div>
+<div class="project-grid">
+<article class="project-card project-featured reveal" data-category="ai"><div class="project-art civic-art"><div class="art-grid"></div><div class="city-block city-a"></div><div class="city-block city-b"></div><div class="city-block city-c"></div><div class="road-line road-one"></div><div class="road-line road-two"></div><div class="dustbin dustbin-a"><i></i></div><div class="dustbin dustbin-b"><i></i></div><div class="mini-robot-truck"><span>▰</span><i></i><i></i></div><div class="art-hud hud-a">VISION / ACTIVE</div><div class="art-hud hud-b">ZONE_05 · TRACKED</div><div class="art-scan"></div><span class="art-serial">CIVICLENS / 001</span></div>
+<div class="project-info"><div class="project-meta"><span>01 — AI / ROBOTICS</span><span class="project-state"><i></i> ONGOING</span></div><h3>CivicLens <em>AI</em></h3><p>Smart automated waste management using AI vision and robotic manipulation. An evolving project combining waste-detection experiments, ESP32 control prototypes and ROS 2 / Gazebo simulation concepts.</p><div class="project-tags"><span>YOLOv8</span><span>ESP32</span><span>ROS 2</span><span>GAZEBO</span></div><div class="project-links"><a href="https://github.com/aadhidhyas01-spec/smart-garbage-system" target="_blank" rel="noreferrer">SYSTEM DESIGN ↗</a><a href="https://github.com/aadhidhyas01-spec/ML-model-final" target="_blank" rel="noreferrer">ML CONTROLLER ↗</a><a href="https://github.com/aadhidhyas01-spec/ai-garbage-monitoring" target="_blank" rel="noreferrer">MONITORING MVP ↗</a></div></div></article>
+<article class="project-card reveal" data-category="web"><div class="project-art path-art"><div class="browser-window"><div class="browser-top"><i></i><i></i><i></i><span>conference / sessions</span></div><div class="browser-content"><div class="browser-kicker">TECH SUMMIT / 2026</div><div class="browser-title">Ideas shape<br><b>tomorrow.</b></div><div class="browser-line"></div><div class="session-row"><span>09:00</span><b>AI & MACHINE LEARNING</b></div><div class="session-row"><span>10:30</span><b>CLOUD INFRASTRUCTURE</b></div><div class="session-row"><span>12:15</span><b>NETWORKING BREAK</b></div></div></div><span class="art-serial">PATHGAURD / WEB</span></div><div class="project-info"><div class="project-meta"><span>02 — WEB APPLICATION</span><span>FLASK</span></div><h3>Pathgaurd <em>AI</em></h3><p>A conference website prototype with session schedules, speaker information, search, filters and interactive views.</p><div class="project-tags"><span>PYTHON</span><span>FLASK</span><span>HTML / CSS / JS</span></div><div class="project-links"><a href="https://github.com/aadhidhyas01-spec/Pathgaurd-ai" target="_blank" rel="noreferrer">VIEW REPOSITORY ↗</a></div></div></article>
+<article class="project-card reveal" data-category="python"><div class="project-art locker-art"><div class="vault-rings"><div class="vault-door"><span>A</span><i></i><i></i><i></i></div></div><div class="vault-label">PRIVATE / MEMORY / LOCKER</div><span class="art-serial">PYTHON / PROJECT</span></div><div class="project-info"><div class="project-meta"><span>03 — PYTHON</span><span>PROJECT REPOSITORY</span></div><h3>Smart Digital<br><em>Memory Locker</em></h3><p>A Python project repository. The implementation and documentation can be expanded as the project develops.</p><div class="project-tags"><span>PYTHON</span><span>SOFTWARE</span></div><div class="project-links"><a href="https://github.com/aadhidhyas01-spec/PYTHON-PROJECT--SMART-DIGITAL-MEMORY-LOCKER" target="_blank" rel="noreferrer">VIEW REPOSITORY ↗</a></div></div></article>
+</div>
+<div class="all-projects-row reveal"><span>MORE EXPERIMENTS & REPOSITORIES</span><a href="https://github.com/aadhidhyas01-spec?tab=repositories" target="_blank" rel="noreferrer">BROWSE ALL PROJECTS <b>↗</b></a></div>
+</section>
+
+<section class="github-section section-wrap" id="github">
+<div class="section-index reveal">04 <span>/ OPEN SOURCE LOG</span></div><div class="section-heading-row reveal"><div><p class="overline">THE WORK IN PROGRESS</p><h2>GITHUB <span class="gradient-word">PULSE.</span></h2></div><p class="section-aside">A live view of my public coding activity<br>and repositories.</p></div>
+<div class="github-panel reveal"><div class="github-panel-head"><div class="github-brand"><span>⌘</span><div><b>GITHUB / AADHIDHYA</b><small>PUBLIC PROFILE ANALYTICS</small></div></div><a href="https://github.com/aadhidhyas01-spec" target="_blank" rel="noreferrer">OPEN PROFILE ↗</a></div>
+<div class="github-stats-images"><img src="https://github-readme-stats.vercel.app/api?username=aadhidhyas01-spec&show_icons=true&theme=transparent&hide_border=true&title_color=5EEAD4&text_color=CBD5E1&icon_color=5EEAD4" alt="GitHub statistics" loading="lazy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aadhidhyas01-spec&layout=compact&theme=transparent&hide_border=true&title_color=5EEAD4&text_color=CBD5E1" alt="Most used languages" loading="lazy"></div>
+<div class="github-activity"><img src="https://github-readme-activity-graph.vercel.app/graph?username=aadhidhyas01-spec&bg_color=0b1220&color=cbd5e1&line=5eead4&point=ffffff&area=true&hide_border=true" alt="GitHub contribution activity graph" loading="lazy"></div>
+<p class="stats-note">Statistics are supplied by third-party services and may load slowly or be temporarily unavailable.</p></div>
+</section>
+
+<section class="contact-section section-wrap" id="contact"><div class="contact-glow"></div><div class="section-index reveal">05 <span>/ LET'S CONNECT</span></div>
+<div class="contact-content reveal"><p class="overline">HAVE AN IDEA? LET'S BUILD.</p><h2>THE NEXT<br>GOOD THING<br><span class="gradient-word">STARTS HERE.</span></h2><p class="contact-copy">I'm always interested in learning, exploring new ideas and connecting with people who love building useful technology.</p><div class="hero-ctas"><a class="button button-primary" href="https://github.com/aadhidhyas01-spec" target="_blank" rel="noreferrer">CONNECT ON GITHUB <span>↗</span></a><a class="button button-ghost" href="https://github.com/aadhidhyas01-spec?tab=repositories" target="_blank" rel="noreferrer">EXPLORE REPOSITORIES <span>↗</span></a></div></div>
+<div class="contact-orbit orbit-contact"></div><div class="contact-orbit orbit-contact-two"></div></section>
+</main>
+
+<footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">A<span>.</span></span><span class="brand-name">AADHIDHYA<small>MADE OF CURIOSITY & CODE</small></span></a><span>DESIGNED TO LEARN. BUILT TO EVOLVE.</span><a href="#home">BACK TO TOP ↑</a><small>© <span id="year"></span> AADHIDHYA</small></footer>
+</body></html>
