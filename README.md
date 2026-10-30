@@ -10,6 +10,7 @@ Sri Eshwar College of Engineering · Batch 2029
 I enjoy building practical projects where **AI, software and robotics** meet.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A8F9D?style=for-the-badge)](https://aadhidhyas01-spec.github.io/aadhidhyas01-spec/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aadhidhya-s-180303391/)
 [![GitHub](https://img.shields.io/badge/GitHub-aadhidhyas01--spec-181717?style=for-the-badge&logo=github)](https://github.com/aadhidhyas01-spec)
 [![Repositories](https://img.shields.io/badge/Projects-Explore-2563EB?style=for-the-badge)](https://github.com/aadhidhyas01-spec?tab=repositories)
 
@@ -95,6 +96,7 @@ A Flask web application prototype for browsing a technical conference schedule, 
 
 I'm open to learning, collaborating on student projects and discussing AI, computer vision or robotics.
 
+- **LinkedIn:** [linkedin.com/in/aadhidhya-s-180303391](https://www.linkedin.com/in/aadhidhya-s-180303391/)
 - **GitHub:** [@aadhidhyas01-spec](https://github.com/aadhidhyas01-spec)
 - **Portfolio:** [aadhidhyas01-spec.github.io/aadhidhyas01-spec](https://aadhidhyas01-spec.github.io/aadhidhyas01-spec/)
 - **Projects:** [Browse all repositories](https://github.com/aadhidhyas01-spec?tab=repositories)
