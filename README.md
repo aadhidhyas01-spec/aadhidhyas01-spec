@@ -53,7 +53,15 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,opencv,arduino,linux,git,github,mysql,vscode&perline=11&theme=dark" alt="Programming and developer tool icons"/>
+<img src="https://skillicons.dev/icons?i=python,c,cpp,java,arduino,linux,git,github,mysql,vscode&perline=10&theme=dark" alt="Programming languages and development tools"/>
+
+<br/><br/>
+
+<a href="https://www.antigravity.google/product/antigravity-ide">
+  <img src="https://antigravity.google/assets/image/brand/antigravity-icon__full-color.png" width="58" height="58" alt="Google Antigravity IDE official logo"/>
+  <br/>
+  <strong>GOOGLE ANTIGRAVITY IDE</strong>
+</a>
 
 <br/><br/>
 
